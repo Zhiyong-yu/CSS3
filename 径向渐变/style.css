@@ -1,0 +1,33 @@
+/* CSS Document */
+
+
+.ceng {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 50%;
+	float: left;
+}
+
+.circle {
+	/*圆形渐变 从中心向外*/
+	background-image: radial-gradient(orange,red);
+	/*圆形渐变 从右开始*/
+	background-image: radial-gradient(circle at right,orange,red);
+	/*圆形渐变 从中心向外，加上色标*/
+	background-image: radial-gradient(20px circle at center,orange,red);
+}
+
+.ellipse {
+	/*椭圆形渐变 从中心向外*/
+	background-image: radial-gradient(ellipse at center,orange,green);
+	/*椭圆形渐变 从右开始*/
+	background-image: radial-gradient(ellipse at right,orange,green);
+	/*椭圆形渐变 从左上开始*/
+	background-image: radial-gradient(ellipse at top left,orange,green);
+	/*椭圆渐变 从中心向外，加上色标 x,y坐标*/
+	background-image: radial-gradient(30px 30px ellipse at center,orange,red);
+
+	
+}

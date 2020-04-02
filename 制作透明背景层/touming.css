@@ -1,0 +1,24 @@
+/* CSS Document */
+#background {
+	margin: 100px auto;
+	width: 800px;
+	height: 291px;
+	background-image:url('../../1.jpg');
+	position: relative;
+	
+	
+}
+#content {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	opacity: 0.8;
+	top: 45px;
+	left: 200px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	-webkit-box-shadow:3px 3px 5px #888 ;
+	box-shadow:3px 3px 5px #888 ; 	
+}

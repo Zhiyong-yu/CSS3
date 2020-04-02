@@ -1,0 +1,49 @@
+/* CSS Document */
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.main {
+	margin: 60px auto;
+	width: 260px;
+	height: 260px;
+	border: 1px solid #cccccc;
+	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+	
+}
+.main:hover img{
+	cursor: pointer;
+	right: 15px;
+	
+	
+}
+
+.m_title {
+	text-align: left;
+	font-size: 20px;
+	padding:20px 10px 10px 10px;
+}
+
+.m_content {
+	color: #11ccaa;
+	padding: 0 10px 10px 10px;
+	font-size: 14px;
+}
+
+.m_img {
+	text-align: right;
+	position: relative;
+}
+.m_img img{
+	position: absolute;
+	width: 180px;
+	height: 150px;
+	top 0px;
+	right: 0px;
+	transition: all .2s;
+}
+

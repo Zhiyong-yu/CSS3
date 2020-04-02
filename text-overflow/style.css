@@ -1,0 +1,24 @@
+/* CSS Document */
+
+
+.demo {
+	
+	width: 100px;
+	height: 200px;
+	padding: 1px;
+	border: 1px solid black;
+	margin: 100px auto;
+	text-overflow: clip;
+	overflow: hidden;
+}
+
+.demo1 {
+	width: 100px;
+	
+	padding: 1px;
+	border: 1px solid black;
+	margin: 100px auto;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

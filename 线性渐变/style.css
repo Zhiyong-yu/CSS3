@@ -1,0 +1,16 @@
+/* CSS Document */
+/* linear-gradient 角度（从上到下 to bottom）*/
+/* 渐变放在background-image*/
+/* 渐变适用于list-style-image、border-image、background-image、
+
+::before、::after、cursor */
+.ceng {
+	margin: 100px auto;
+	width: 400px;
+	height: 200px;
+	border: 1px solid #f00;
+	background-image: -webkit-linear-gradient(to right,red,blue,white);
+	background-image: -o-linear-gradient(to right,red,blue,white);
+	background-image: linear-gradient(to right,red,blue,white);
+	
+}

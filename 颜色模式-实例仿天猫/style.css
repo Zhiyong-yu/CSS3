@@ -1,0 +1,56 @@
+
+#main {
+	max-width: 100%;
+	max-height: 100%;
+	color: #404040;
+	background-color:#fff;
+	clear: both;/*清除浮动*/
+}
+
+#main li{
+	list-style: none;/*去圆角*/
+	width: 200px;
+	height: auto;
+	background-clip: #fff;
+	margin: 10px auto;
+	padding: 1px;
+	transition: all .7s;
+	float: left;
+}
+#main li:hover{
+	cursor: pointer;
+	border: 1px solid rgba(255,0,0,1);
+	opacity: 0.7;
+	
+}
+
+
+
+
+#img img{
+	width: 200px;
+	
+}
+
+#goodstitle {
+	font-size: 14px;
+	color: #666;
+	line-height: 18px;
+	margin: 10px;
+	height: 40px;
+	width: 195px;
+	left: auto;	
+}
+
+#price {
+	font-size: 18px;
+	color: #B73638;
+	
+}
+#price::before{
+	content:'￥';
+}
+
+body {
+	background-color: #ddd;
+}

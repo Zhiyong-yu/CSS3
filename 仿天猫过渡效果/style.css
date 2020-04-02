@@ -1,0 +1,68 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Microsoft YaHei';
+}
+
+.ceng {
+	list-style: none;
+	text-align: center;
+	border: 1px solid #c4c3c5;
+	width: 200px;
+	height: 230px;
+	margin: 30px auto;
+	cursor: pointer;
+	
+
+}
+.ceng:hover img{
+	
+	-webkit-transform:scale(1.1) ;
+	-ms-transform:scale(1.1) ;
+	-o-transform:scale(1.1) ;
+	transform:scale(1.1) ;
+	
+}
+
+.m_title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 1px;
+	margin: 5px;
+
+	
+}
+
+.m_content {
+	font-size: 20px;
+	font-weight: 300;
+	color: #666;
+	margin-bottom: 5px;
+}
+.m_picture img{
+	width: 100px;
+	-webkit-transition:all 2s ;
+	-o-transition:all 2s ;
+	transition:all 2s ;
+}
+
+.m_picture {
+	position: relative;
+	padding: 10px;
+	-webkit-transform:scale(1) ;
+	-ms-transform:scale(1) ;
+	-o-transform:scale(1) ;
+	transform:scale(1) ;
+}
+.m_picture::before{
+	content: '';
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	z-index: -1;
+	border-radius:50%; 
+	left: -1px;
+}
